@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+  <%= form_for @contact do |f| %>
+
+    <%= f.text_field :full_name, placeholder: "Name" %>
+    <%= f.text_field :email, placeholder: "Email"%>
+
+    <%= f.text_area :message, :row => 4, :cols =>50, placeholder: "Message" %>
+    <%= f.submit "Send Message" %>
+  <% end %>
+</body>
+</html>
