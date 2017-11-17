@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<p>
+  <% @contacts.each do |contact| %>
+    <%= contact.full_name %><br>
+    <%= contact.email %><br>
+    <%= contact.message %><br>
+  <% end %>
+</p>
+
+</body>
+</html>
