@@ -2,6 +2,12 @@ class EventsController < ApplicationController
   before_action :set_event, :only => [:show, :edit, :update, :destroy]
   def index
     @events = Event.all
+    render json: @events
+  end
+
+
+  def show
+    render json: @event
   end
 
   def new
@@ -12,24 +18,23 @@ class EventsController < ApplicationController
     @event = current_user.events.build(event_params)
 
     if @event.save
-      redirect_to events_path
+      render json: @event
     else 
-      render :new
+      render json: @event.errors
     end
   end
 
   def update
-    @event.update(event_params)
-    if @event.save
-      redirect_to events_path
+    if @event.update(event_params)
+      render json: @event
     else
-      render :edit
+      render json: @event.errors
     end
   end
 
   def destroy
     @event.destroy
-    redirect_to events_path
+    render json: @events
   end
 
 protected
