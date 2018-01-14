@@ -71,7 +71,7 @@ img {
 /*-- top-header --*/
 .top-header-agile{
   padding:10px 0;
-  border-bottom: 5px solid #ffde3a;
+  border-bottom: 5px solid #0099ff;
 }
 .top-header-agile ul li{
   display:inline;
@@ -148,11 +148,11 @@ img {
      color:#fff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffde3a;
+    color: #0099ff;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-   color: #ffde3a;
+   color: #0099ff;
     background-color: transparent;
 }
 ul.nav.navbar-nav {
@@ -340,8 +340,8 @@ ul.nav.navbar-nav {
   -ms-border-radius:50%;
 }
 .callbacks_here a:after{
-     background:#ffde3a;
-    border: 2px solid #ffde3a;
+     background:#0099ff;
+    border: 2px solid #0099ff;
 }
 .banner-info {
        padding: 5em 2em;
@@ -353,7 +353,7 @@ ul.nav.navbar-nav {
 .banner-info h3 {
     font-size: 5em;
     font-weight: 400;
-    color:#ffde3a;
+    color:#0099ff;
   margin:0;
 }
 .banner-info p {
@@ -408,7 +408,7 @@ ul.nav.navbar-nav {
   font-size:14px;
 }
 .about-right-w3l{
-  background:url('http://res.cloudinary.com/nexpals/image/upload/v1510925155/about_zdipc9.jpg') no-repeat 0px 0px;
+  background:url('https://farm5.staticflickr.com/4723/27903769559_a92a4935df_h.jpg') no-repeat 0px 0px;
   background-size:cover;
   min-height:400px;
  }
@@ -419,7 +419,7 @@ ul.nav.navbar-nav {
  }
 .about-left-w3l .fa {
     color: #000;
-    background:#ffde3a;
+    background:#0099ff;
     text-align: center;
     padding: 16px;
     border-radius: 50%;
@@ -438,7 +438,7 @@ ul.nav.navbar-nav {
 
 /*--services--*/
 .services-w3-agileits{
-  background:url("http://res.cloudinary.com/nexpals/image/upload/v1510925243/servicesbg_kwku1t.jpg") no-repeat 0px 0px;
+  background:url("https://farm5.staticflickr.com/4723/27903769559_a92a4935df_h.jpg") no-repeat 0px 0px;
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -472,8 +472,8 @@ ul.nav.navbar-nav {
   transition: all 0.4s ease-in-out;
   }
 .services-grids-w3-agile:hover .fa{
-  background:#ffde3a;
-  border:1px solid #ffde3a;
+  background:#0099ff;
+  border:1px solid #0099ff;
   color:#000;
 }
 .services-w3-agileits h4{
@@ -672,7 +672,7 @@ ul.nav.navbar-nav {
 .info-gal-con h4 {
     font-size:45px;
     margin-bottom: 30px;
-    color:#ffde3a;
+    color:#0099ff;
 }
 /*--//gallery--*/
 
@@ -706,7 +706,7 @@ ul.nav.navbar-nav {
 }
 .news ul li a{
   padding:8px 15px;
-  background-color:#ffde3a;
+  background-color:#0099ff;
   display:inline-block;
   margin-bottom:10px;
   color:#fff;
@@ -928,7 +928,7 @@ a.date{
 
 /*--contact--*/
 .contact {
-  background:url('http://res.cloudinary.com/nexpals/image/upload/v1510925282/contactbg_li67md.jpg') no-repeat 0px 0px;
+  background:url('https://farm5.staticflickr.com/4628/24813132677_46fffa247b_b.jpg') no-repeat 0px 0px;
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -959,7 +959,7 @@ a.date{
 .contact-left input[type="submit"] {
     font-size: 1em;
     color: #393838;
-    background: #ffde3a;
+    background: #0099ff;
     border: none;
     padding: 0.5em 1.5em;
     outline: none;
@@ -986,7 +986,7 @@ a.date{
     line-height: 1.8em;
 }
 .contact-right h4 {
-    color:#ffde3a;
+    color:#0099ff;
     margin-bottom: 0.5em;
 }
 .contact-right ul {
@@ -1212,7 +1212,7 @@ span.glyphicon.glyphicon-envelope {
 @media screen and (max-width: 736px){
   .navbar-default .navbar-toggle {
     border-color: transparent;
-    background: #ffde3a;
+    background: #0099ff;
     border-radius:0;
   }
   .navbar-default .navbar-toggle .icon-bar {
